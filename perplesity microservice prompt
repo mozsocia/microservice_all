@@ -1,0 +1,31 @@
+To effectively create a microservice architecture using Node.js with Mongoose and Express, consider the following high-level prompt tailored for your needs:
+
+---
+
+**Prompt for LLM:**
+
+I am developing a microservice architecture using Node.js with Mongoose and Express. My project will consist of two services: **Product** and **Order**, alongside an **API Gateway** to manage requests. 
+
+1. **Project Structure**: Please provide a detailed directory structure for the entire project, ensuring that each service has its own folder. I want to avoid creating separate route files; instead, each service should have a model file and a controller file.
+
+2. **Service Implementation**:
+   - For the **Product Service**, outline how to set up the Mongoose model and the controller logic.
+   - For the **Order Service**, similarly provide guidance on the Mongoose model and controller setup.
+
+3. **API Gateway**: Describe how to implement the API Gateway to route requests to the appropriate services effectively.
+
+4. **Best Practices**: Include any best practices for structuring microservices in Node.js, particularly focusing on scalability, maintainability, and inter-service communication.
+
+5. **Example Code Snippets**: If possible, include example code snippets for the models and controllers of both services, as well as the API Gateway configuration.
+
+---
+
+This prompt clearly outlines your requirements while encouraging comprehensive responses from the language model regarding structure, implementation, best practices, and examples.
+
+Citations:
+[1] https://codedamn.com/news/backend/microservices-architecture-nodejs-guide
+[2] https://blog.logrocket.com/building-microservices-node-js/
+[3] https://futurbyte.co/blog/node-js-microservices/
+[4] https://www.geeksforgeeks.org/how-to-build-a-microservices-architecture-with-nodejs/
+[5] https://dev.to/ssd/implementing-microservice-architecture-in-node-js-1fg3
+[6] https://talent500.com/blog/how-to-build-microservices-with-node-js/
