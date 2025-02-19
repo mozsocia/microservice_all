@@ -1,3 +1,13 @@
+### I want to ask a LLM to give ans about node js project, please give me a high label accurate prompt for below prompt
+<my-ask>
+I want to make a microservice in node js Mongoose, express js
+- I want two service (product,order )and API gateway
+- give me suggestions how to structure the whole project
+- for every service do not create route file, create model file and controller file
+</my-ask>
+
+
+
 To effectively create a microservice architecture using Node.js with Mongoose and Express, consider the following high-level prompt tailored for your needs:
 
 ---
