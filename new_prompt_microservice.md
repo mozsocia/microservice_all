@@ -58,21 +58,3 @@ what is the best way to validation input ?
 
 
 
-
-
-
----
-
-what about this type of file structure in every service , i have seen some senior dev using it
-
-```
-├── modules/
-│   └── auth/
-│       ├── auth.controller.ts
-│       ├── auth.routes.ts
-│       ├── auth.service.ts
-│       └── schemas/              <-- DTOs (Data Transfer Objects)
-│           ├── register.schema.ts
-│           └── login.schema.ts
-
-```
